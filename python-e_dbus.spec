@@ -1,21 +1,21 @@
 Summary:	Python bindings for E_Dbus library
 Summary(pl.UTF-8):	Wiązania Pythona do biblioteki E_Dbus
 Name:		python-e_dbus
-Version:	0.7.3
+Version:	1.7.0
 Release:	1
 License:	LGPL v2.1+
 Group:		Development/Languages/Python
 Source0:	http://download.enlightenment.org/releases/BINDINGS/python/%{name}-%{version}.tar.bz2
-# Source0-md5:	e09f2bc52f7366c561060849c80fbdee
+# Source0-md5:	40b479444bb06147429a276127981890
 URL:		http://trac.enlightenment.org/e/wiki/Python
-BuildRequires:	e_dbus-devel >= 1.0.0
+BuildRequires:	e_dbus-devel >= 1.7.0
 BuildRequires:	epydoc
 BuildRequires:	python-Cython >= 0.13
-BuildRequires:	python-devel >= 1:2.5
+BuildRequires:	python-devel >= 1:2.7
 BuildRequires:	python-dbus-devel >= 0.83
 BuildRequires:	rpm-pythonprov
 BuildRequires:	pkgconfig >= 1:0.22
-Requires:	e_dbus >= 1.0.0
+Requires:	e_dbus >= 1.7.0
 Requires:	python-dbus >= 0.83
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -30,7 +30,7 @@ Summary:	Python bindings for E_Dbus library - development files
 Summary(pl.UTF-8):	Wiązania Pythona do biblioteki E_Dbus - pliki programistyczne
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
-Requires:	e_dbus-devel >= 1.0.0
+Requires:	e_dbus-devel >= 1.7.0
 Requires:	python-dbus-devel >= 0.83
 
 %description devel
