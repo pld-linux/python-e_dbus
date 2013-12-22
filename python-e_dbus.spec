@@ -1,3 +1,4 @@
+# NOTE: for EFL >= 1.8.0 replacement see python-efl.spec
 Summary:	Python bindings for E_Dbus library
 Summary(pl.UTF-8):	Wiązania Pythona do biblioteki E_Dbus
 Name:		python-e_dbus
